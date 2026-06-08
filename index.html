@@ -13,35 +13,6 @@ body {
     color: #fff;
 }
 
-header {
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),
-    url('https://images.unsplash.com/photo-1558981806-ec527fa84c39');
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    padding: 120px 20px;
-}
-
-header h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
-}
-
-header p {
-    font-size: 1.3em;
-}
-
-.btn {
-    display: inline-block;
-    margin: 10px;
-    padding: 12px 25px;
-    background: #c00000;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
 nav {
     background: #000;
     padding: 15px;
@@ -52,6 +23,50 @@ nav a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
+    font-weight: bold;
+}
+
+header {
+    background:
+        linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+        url('https://images.unsplash.com/photo-1558981806-ec527fa84c39');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.logo {
+    max-width: 350px;
+    width: 85%;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.4rem;
+    max-width: 900px;
+    margin: 15px auto;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 14px 28px;
+    background: #cc0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #ff0000;
 }
 
 section {
@@ -62,21 +77,25 @@ section {
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     gap: 20px;
 }
 
 .card {
     background: #1d1d1d;
     padding: 25px;
-    border-left: 4px solid #c00000;
+    border-left: 5px solid #cc0000;
     border-radius: 8px;
 }
 
+.card h3 {
+    margin-top: 0;
+}
+
 footer {
-    text-align: center;
-    padding: 30px;
     background: #000;
+    text-align: center;
+    padding: 40px 20px;
 }
 </style>
 </head>
@@ -93,16 +112,22 @@ footer {
 </nav>
 
 <header>
+
+<img src="logo.jpeg" alt="Righteous Mayhem MC Logo" class="logo">
+
 <h1>Righteous Mayhem MC</h1>
+
 <p>No Rest for the Wicked. For the Righteous, Hold the Line.</p>
 
 <p>Founded 2026 • Mother Chapter: Amarillo, Texas</p>
 
 <a href="contact.html" class="btn">Contact Us</a>
 <a href="events.html" class="btn">Upcoming Events</a>
+
 </header>
 
 <section>
+
 <h2>Our Mission</h2>
 
 <p>
@@ -111,9 +136,11 @@ veterans, defending freedom, serving our communities, and protecting
 those who cannot protect themselves. We believe in loyalty, honor,
 respect, and living by a code.
 </p>
+
 </section>
 
 <section>
+
 <h2>What We Stand For</h2>
 
 <div class="cards">
@@ -139,9 +166,11 @@ respect, and living by a code.
 </div>
 
 </div>
+
 </section>
 
 <section>
+
 <h2>Upcoming Events</h2>
 
 <div class="cards">
@@ -162,9 +191,11 @@ respect, and living by a code.
 </div>
 
 </div>
+
 </section>
 
 <section>
+
 <h2>Become Part of the Brotherhood</h2>
 
 <p>
@@ -179,7 +210,7 @@ integrity, and commitment.
 
 <footer>
 
-<h3>Righteous Mayhem MC</h3>
+<h2>Righteous Mayhem MC</h2>
 
 <p>Amarillo, Texas</p>
 
