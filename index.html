@@ -3,9 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Righteous Mayhem MC</title>
 
 <style>
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -24,45 +26,43 @@ nav a {
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
+    font-size: 18px;
 }
 
 header {
-    background:
-        linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
-        url('https://images.unsplash.com/photo-1558981806-ec527fa84c39');
-    background-size: cover;
-    background-position: center;
+    background: #000;
     text-align: center;
-    padding: 80px 20px;
+    padding: 40px 20px 80px 20px;
 }
 
 .logo {
-    max-width: 350px;
-    width: 85%;
+    width: 95%;
+    max-width: 800px;
     height: auto;
     margin-bottom: 25px;
 }
 
 header h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
+    font-size: 4rem;
+    margin: 15px 0;
 }
 
 header p {
     font-size: 1.4rem;
+    margin: 10px auto;
     max-width: 900px;
-    margin: 15px auto;
 }
 
 .btn {
     display: inline-block;
     margin: 10px;
-    padding: 14px 28px;
+    padding: 14px 30px;
     background: #cc0000;
     color: white;
     text-decoration: none;
     border-radius: 6px;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .btn:hover {
@@ -70,14 +70,18 @@ header p {
 }
 
 section {
-    padding: 60px 20px;
     max-width: 1100px;
     margin: auto;
+    padding: 60px 20px;
+}
+
+section h2 {
+    font-size: 2.5rem;
 }
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     gap: 20px;
 }
 
@@ -97,6 +101,24 @@ footer {
     text-align: center;
     padding: 40px 20px;
 }
+
+@media (max-width: 768px) {
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    header h1 {
+        font-size: 2.7rem;
+    }
+
+    header p {
+        font-size: 1.1rem;
+    }
+
+}
+
 </style>
 </head>
 
@@ -117,11 +139,12 @@ footer {
 
 <h1>Righteous Mayhem MC</h1>
 
-<p>No Rest for the Wicked. For the Righteous, Hold the Line.</p>
+<p><strong>No Rest for the Wicked. For the Righteous, Hold the Line.</strong></p>
 
 <p>Founded 2026 • Mother Chapter: Amarillo, Texas</p>
 
 <a href="contact.html" class="btn">Contact Us</a>
+
 <a href="events.html" class="btn">Upcoming Events</a>
 
 </header>
@@ -131,10 +154,9 @@ footer {
 <h2>Our Mission</h2>
 
 <p>
-Righteous Mayhem MC is a brotherhood of riders dedicated to supporting
-veterans, defending freedom, serving our communities, and protecting
-those who cannot protect themselves. We believe in loyalty, honor,
-respect, and living by a code.
+Righteous Mayhem MC is a brotherhood of riders dedicated to supporting veterans,
+defending freedom, serving our communities, and protecting those who cannot
+protect themselves. We believe in loyalty, honor, respect, and living by a code.
 </p>
 
 </section>
@@ -199,9 +221,8 @@ respect, and living by a code.
 <h2>Become Part of the Brotherhood</h2>
 
 <p>
-Whether you're a seasoned rider or someone seeking a purpose-driven
-motorcycle club, Righteous Mayhem MC welcomes men who value honor,
-integrity, and commitment.
+Whether you're a seasoned rider or someone seeking a purpose-driven motorcycle club,
+Righteous Mayhem MC welcomes men who value honor, integrity, and commitment.
 </p>
 
 <a href="contact.html" class="btn">Learn More</a>
@@ -214,9 +235,7 @@ integrity, and commitment.
 
 <p>Amarillo, Texas</p>
 
-<p>
-Supporting Veterans • Freedom • Brotherhood • Community
-</p>
+<p>Supporting Veterans • Freedom • Brotherhood • Community</p>
 
 </footer>
 
